@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remix icon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form>
+            <p>Enter Amount</p>
+            <input type="number">
+            <div class="convert-To">
+                <div>
+                    <p>from</p>
+                    <div class="select-contury"><img src="https://flagsapi.com/IN/flat/64.png">
+                        <select class="from"></select>
+                    </div>
+                </div>
+                <i class="ri-arrow-left-right-line"></i>
+                <div>
+                    <p>To</p>
+                    <div class="select-contury"><img src="https://flagsapi.com/US/flat/64.png">
+                        <select class="to"></select>
+                    </div>
+                </div>
+            </div>
+            <p class="result">1USD = 82INR</p>
+            <button >Get Exchange Rate</button>      <!--if there is a button in form it will automatically act as submit button.-->
+        </form>
+    </div>
+
+    <!-- javascript link -->
+    <script src="javascript/country.js"></script>
+    <script src="javascript/mainScript.js"></script>
+    
+</body>
+</html>
